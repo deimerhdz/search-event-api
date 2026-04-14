@@ -1,18 +1,8 @@
 # Search Events - Búsqueda Semántica de Eventos
 
-> Servidor de búsqueda inteligente de eventos usando embeddings semánticos y vector database
-
 ## Descripción del Proyecto
 
-**Search Events** es una aplicación backend que implementa búsqueda semántica para eventos. En lugar de buscar por palabras clave exactas, entiende el significado de las queries y retorna eventos relevantes basados en similitud semántica.
-
-### ¿Qué lo hace especial?
-
-- **Búsqueda Semántica**: Encuentra eventos por significado, no solo por palabras clave
-- **Alto Rendimiento**: Vector database (Pinecone) para búsquedas instantáneas
-- **IA Local**: Embeddings generados con HuggingFace Transformers (sin dependencia de APIs externas siempre iniciado)
-- **Modular**: Arquitectura separada en capas (Controller → Service → Embeddings → Vector DB)
-- **Persistencia**: PostgreSQL para almacenar datos estructurados
+**Search Events** es una aplicación backend que implementa búsqueda semántica para eventos. 
 
 ## Flujo de Funcionamiento
 
